@@ -1,0 +1,26 @@
+# Build artefacts
+/bin/
+/build/
+*.exe
+
+# Coverage & profiling
+/coverage.out
+/profile.out
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Environment files
+.env
+.env.*
+/config/local.yaml
+
+# TLS certificates (mkcert generated)
+/config/certs/*.pem
+/config/certs/*.key
+
+# Generated code
+/internal/ent/migrate/schema/
