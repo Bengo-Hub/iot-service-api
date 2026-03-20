@@ -14,9 +14,9 @@ success() { echo -e "${GREEN}[SUCCESS]${NC} $1"; }
 warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
 error() { echo -e "${RED}[ERROR]${NC} $1"; }
 
-APP_NAME=${APP_NAME:-"iot-service"}
+APP_NAME=${APP_NAME:-"iot-service-api"}
 NAMESPACE=${NAMESPACE:-"iot"}
-ENV_SECRET_NAME=${ENV_SECRET_NAME:-"iot-service-secrets"}
+ENV_SECRET_NAME=${ENV_SECRET_NAME:-"iot-api-secrets"}
 DEPLOY=${DEPLOY:-true}
 SETUP_DATABASES=${SETUP_DATABASES:-true}
 DB_TYPES=${DB_TYPES:-postgres,redis}
